@@ -1,0 +1,24 @@
+@import "../../scss/consts.scss";
+
+.countries {
+	margin: 30px 0px;
+	// .countries__top
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		&:not(:last-child) {
+			margin: 0px 0px 30px 0px;
+		}
+		@media (max-width: $md3) {
+			flex-wrap: wrap;
+			row-gap: 10px;
+		}
+	}
+	// .countries__list
+	&__list {
+		margin: 0px -15px;
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+}

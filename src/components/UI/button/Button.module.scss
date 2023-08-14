@@ -1,0 +1,22 @@
+@import "../../../scss/consts.scss";
+
+.button {
+	font-size: $fsSmall;
+	font-family: $family;
+	padding: 0px 15px;
+	background-color: $lightUiBase;
+	box-shadow: $lightShadow;
+	line-height: 2.5;
+	border-radius: $borderRadius;
+	border: none;
+	display: flex;
+	align-items: center;
+	color: $lightTextColor;
+	cursor: pointer;
+	transition: box-shadow 0.3s ease 0s;
+	@media (any-hover: hover) {
+		&:hover {
+			box-shadow: rgba(149, 157, 165, 0.2) 0px 16px 16px;
+		}
+	}
+}

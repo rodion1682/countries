@@ -1,0 +1,27 @@
+@import "./fonts.scss";
+
+$lightTextColor: rgb(17, 21, 23);
+$lightBGColor: rgb(250, 250, 250);
+$lightUiBase: rgb(255, 255, 255);
+$lightShadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+//$darkTextColor: rgb(255, 255, 255);
+//$darkBGColor: rgb(32, 44, 55);
+//$darkUiBase: rgb(43, 57, 69);
+//$darkShadow: rgba(245, 245, 245, 0.2) 0 0 8px;
+
+$family: "Nunito Sans", sans-serif;
+$fsSmall: 16px;
+$fsMedium: 20px;
+$fsLarge: 30px;
+$fwLight: 300;
+$fwRegular: 400;
+$fwMedium: 600;
+$fwBlack: 900;
+
+$borderRadius: 8px;
+
+$md1: 992px;
+$md2: 768px;
+$md3: 640px;
+$md4: 460px;
